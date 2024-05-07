@@ -21,18 +21,18 @@ requires-python = ">=3.9"
 
 dependencies = [
   "detect-secrets==1.4.0",
-  "faker>=22,<25",
-  "fuzzysearch>=0.7,<0.9",
-  "json-repair>=0.8,<0.11",
-  "nltk>=3.8,<4",
-  "presidio-analyzer>=2.2,<3",
-  "presidio-anonymizer>=2.2,<3",
+  "faker==24.4.0",
+  "fuzzysearch==0.7.3",
+  "json-repair==0.10.1",
+  "nltk==3.8.1",
+  "presidio-analyzer==2.2.354",
+  "presidio-anonymizer==2.2.354",
   "regex==2023.12.25",
-  "tiktoken>=0.5,<0.7",
-  "torch>=2.0.1,<=2.2.2",
-  "transformers>=4.34.1,<=4.39.3",
+  "tiktoken==0.6.0",
+  "torch==2.2.2",
+  "transformers==4.39.3",
   "span-marker==1.5.0",
-  "structlog>=24"
+  "structlog==24.1.0"
 ]
 
 [project.optional-dependencies]
